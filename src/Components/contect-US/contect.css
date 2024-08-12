@@ -1,0 +1,101 @@
+.contact-container {
+    display: flex;
+    flex-wrap: wrap; /* Ensure responsiveness on smaller screens */
+    gap: 20px; /* Space between the two sections */
+    padding: 20px;
+    justify-content: center; /* Center the content horizontally */
+}
+
+.contact, .contact-col {
+    background-color: #f4f4f4; /* Same background color for both sections */
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    flex: 1; /* Allow both sections to grow and shrink */
+}
+
+.contact h3, .contact-col form label {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.contact p {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact ul li {
+    margin-bottom: 10px;
+    color: #333;
+    font-size: 16px;
+}
+
+.contact ul li strong {
+    font-weight: bold;
+    color: #2128A0;
+}
+
+.contact img {
+    width: 20px; /* Default size for all icons */
+    height: auto;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.contact-col form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form textarea {
+    resize: vertical; /* Allow vertical resizing */
+}
+
+.btn.dark-btn {
+    background-color: #2128A0;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: flex-start; /* Align the button to the start of the form */
+}
+
+.btn.dark-btn:hover {
+    background-color: #1a1d6e;
+}
+.result-message {
+    display: block; /* Ensure the span takes up its own line */
+    margin-top: 15px; /* Space above the message */
+     /* Padding for a more noticeable appearance */
+     /* Rounded corners */
+    font-size: 16px; /* Adjust font size */
+    font-weight: bold; /* Make the text bold */
+    color: #64339c; /* Text color */
+    ; /* Green background for success messages */
+    
+} 
+.contact-container, .contact-col {
+    overflow: hidden;
+}

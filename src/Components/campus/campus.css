@@ -1,0 +1,55 @@
+/* Campus.css */
+
+/* Container for the images and button */
+.campus-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+    padding: 20px; /* Padding around the container */
+}
+
+/* Gallery container */
+.gallery {
+    display: flex;
+    justify-content: center; /* Center the gallery images */
+    flex-wrap: nowrap; /* Prevent wrapping */
+    width: 100%;
+    margin-bottom: 20px; /* Space between gallery and button */
+    gap: 20px;
+}
+
+/* Styling for each image */
+.gallery-image {
+    width: 20%; /* Set width to 20% for five images to fit side by side */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Rounded corners */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effects */
+}
+
+/* Hover effect for images */
+.gallery-image:hover {
+    transform: scale(1.05); /* Slightly enlarge image on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Intensify shadow on hover */
+}
+
+/* Button styling */
+.btn {
+    background-color: #212EA0; /* Dark background color */
+    color: #fff; /* White text color */
+    border-radius: 30px;
+    font-size: medium;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between text and image */
+}
+
+.btn img {
+    width: 15px; /* Adjust size of arrow image */
+}
+
+.btn:hover {
+    background-color: #501aa7; /* Slightly lighter on hover */
+}

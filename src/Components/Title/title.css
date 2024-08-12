@@ -1,0 +1,22 @@
+/* Title Container Styling */
+.title-container {
+    text-align: center;
+    padding: 20px;
+    background: #f4f4f4; /* Light background for contrast */
+    margin: 20px 0;
+  }
+  
+  /* Subtitle Styling */
+  .title-subtext {
+    font-size: 1.2rem;
+    color: #555; /* Slightly dark color for subtitle */
+    margin: 0;
+  }
+  
+  /* Main Title Styling */
+  .title-maintext {
+    font-size: 2.5rem;
+    color: #333; /* Dark color for main title */
+    margin: 10px 0 0; /* Adjust margin to suit your design */
+  }
+  
